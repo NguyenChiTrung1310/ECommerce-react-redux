@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import data from "../data";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import data from '../data';
 
 export default function ProductScreen(props) {
   console.log(props.match.params.id); // get id from product
@@ -36,7 +36,7 @@ export default function ProductScreen(props) {
             <li>Price: {product.price}</li>
             <li>Status: {product.status}</li>
             <li>
-              Qty:{" "}
+              Qty:{' '}
               <select>
                 <option>1</option>
                 <option>2</option>
